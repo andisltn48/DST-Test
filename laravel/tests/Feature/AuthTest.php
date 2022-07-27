@@ -18,7 +18,7 @@ class AuthTest extends TestCase
     {
         $request = [
             'name' => 'TesterAdmin',
-            'email' => 'testeradmin@gmail.com',
+            'email' => 'testeradmin1@gmail.com',
             'password' => 'Tester123',
         ];
 
@@ -31,7 +31,7 @@ class AuthTest extends TestCase
     {
         $request = [
             'name' => 'TesterUser',
-            'email' => 'testeruser@gmail.com',
+            'email' => 'testeruser1@gmail.com',
             'password' => 'Tester123',
         ];
 

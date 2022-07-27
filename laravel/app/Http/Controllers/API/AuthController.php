@@ -19,6 +19,8 @@ class AuthController extends Controller
             'name' => 'string|required|max:255',
             'email' => 'email|required|unique:users,email',
             'password' => 'string|required|max:255',
+        ], [
+            'name.required' => 'nama tidak boleh kosong'
         ]);
 
         if ($validator->fails()) {
